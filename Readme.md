@@ -70,7 +70,7 @@
 </tr>
 </table>
 ## 事件與使用案例表 ##
-<table width="500">
+<table width="550">
 <tr>
 <td><center>事件名稱</center></td>
 <td><center>使用案例名稱</center></td>

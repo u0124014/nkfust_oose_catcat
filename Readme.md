@@ -398,7 +398,7 @@
 <td colspan="2">無</td>
 </tr>
 <tr>
-<td rowspan="5">主要成功情節</td>
+<td rowspan="6">主要成功情節</td>
 <td>參與者</td>
 <td>系統</td>
 </tr>

@@ -337,7 +337,7 @@
 <td colspan="2">管理階層(李總)</td>
 </tr>
 <tr>
-<td width="150">利害關係人與目標</td>
+<td width="170">利害關係人與目標</td>
 <td colspan="2">1. 進行策略規劃<hr>2.分析銷售狀況</td>
 </tr>
 <tr>
@@ -386,7 +386,7 @@
 <td colspan="2">顧客、超商店員</td>
 </tr>
 <tr>
-<td width="150">利害關係人與目標</td>
+<td width="170">利害關係人與目標</td>
 <td colspan="2">1.可以用條碼掃描，加快結帳速度</td>
 </tr>
 <tr>

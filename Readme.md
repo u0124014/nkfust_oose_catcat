@@ -510,7 +510,7 @@
 <table>
 <tr>
 <td width="100">名詞</td>
-<td width="170">原因</td>
+<td width="200">原因</td>
 <td width="170">結果(是否為概念類別)</td>
 </tr>
 <tr>
@@ -584,7 +584,7 @@
 <table>
 <tr>
 <td width="100">名詞</td>
-<td width="170">原因</td>
+<td width="200">原因</td>
 <td width="170">結果(是否為概念類別)</td>
 </tr>
 <tr>
@@ -718,7 +718,7 @@
 <table>
 <tr>
 <td width="100">名詞</td>
-<td width="170">原因</td>
+<td width="200">原因</td>
 <td width="170">結果(是否為概念類別)</td>
 </tr>
 <tr>
@@ -786,14 +786,13 @@
 <td>訂單紀錄屬性<br>票劵屬性</td>
 <td>否</td>
 </tr>
-
 </table>
 
 <h3>「電影基本資料」之概念類別列舉表</h3>
 <table>
 <tr>
 <td width="100">名詞</td>
-<td width="170">原因</td>
+<td width="200">原因</td>
 <td width="170">結果(是否為概念類別)</td>
 </tr>
 <tr>

@@ -41,7 +41,7 @@
 <td><center>目標</center></td>
 </tr>
 <tr>
-<td>管理階層(李總)</td>
+<td>管理階層</td>
 <td>1.進行策略規劃<br>
 2.分析銷售狀況</td>
 </tr>

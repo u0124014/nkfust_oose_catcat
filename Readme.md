@@ -989,7 +989,8 @@
 
 ## 每個使用案例的初步類別圖 ##
 <h3>訂票基本資料作業之初部類別圖</h3>
-<a href="http://imgur.com/rz3VnY0"><img src="訂票基本資料作業之初部類別圖"></a>
+<img src="http://i.imgur.com/lgm7Xo4.png?1" title="訂票基本資料作業之初部類別圖"/>
+[Imgur](http://i.imgur.com/rz3VnY0.png)
 <h3>處理訂單紀錄之初部類別圖</h3>
 
 <h3>現有座位及退票處理作業之初部類別圖</h3>

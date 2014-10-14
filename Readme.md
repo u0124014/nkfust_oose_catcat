@@ -1001,8 +1001,10 @@
 <img src="http://i.imgur.com/vbkk5z5.jpg" title="電影基本資料作業之初部類別圖"/>
 
 <h3>憑據處理作業之初部類別圖</h3>
+<img src="http://i.imgur.com/PvziGK4.png" title="憑據處理作業之初部類別圖"/>
 
 <h3>銷售分析作業之初部類別圖</h3>
+<img src="http://i.imgur.com/KZPH5bT.png" title="銷售分析作業之初部類別圖"/>
 
 
 ## 最後整個系統的初步類別圖 ##

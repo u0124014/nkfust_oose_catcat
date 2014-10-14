@@ -992,10 +992,13 @@
 <img src="http://i.imgur.com/rz3VnY0.png" title="訂票基本資料作業之初部類別圖"/>
 
 <h3>處理訂單紀錄之初部類別圖</h3>
+<img src="http://i.imgur.com/CzHMnj8.jpg" title="處理訂單紀錄之初部類別圖"/>
 
 <h3>現有座位及退票處理作業之初部類別圖</h3>
+<img src="http://i.imgur.com/57N5zm9.jpg" title="現有座位及退票處理作業之初部類別圖"/>
 
 <h3>電影基本資料作業之初部類別圖</h3>
+<img src="http://i.imgur.com/vbkk5z5.jpg" title="電影基本資料作業之初部類別圖"/>
 
 <h3>憑據處理作業之初部類別圖</h3>
 

@@ -177,16 +177,16 @@
 <td>2.1系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重複客戶身分證號碼，顯示「重複客戶名稱」訊息</td>
 </tr>
 <tr>
-<td>3.輸入完畢後，選取儲存鍵，或者取消鍵或者儲存離開鍵</td>
-<td>saveCustomerItem(customerItem)</td>
+<td>3.輸入完畢後，選取儲存鍵，或者取消鍵或者儲存離開鍵
+<br>saveCustomerItem(customerItem)</td>
 <td>3.1選取儲存按鍵，系統將客戶資料存入資料庫，並自動新增訂單紀錄。如果按取消鍵，則回至新增畫面。按離開鍵將新客戶資料存入資料庫，回到作業畫面</td>
 </tr>
 <tr>
 <td colspan="2">系統重複1-3的動作</td>
 </tr>
 <tr>
-<td>4.如果要進行修改，選取修改按鍵，並可以依據任一個欄位進行查詢，讀取所要修改紀錄。修改完，按確認鍵</td>
-<td>modifycustomerItem(customerName,customerPhone, customerID)
+<td>4.如果要進行修改，選取修改按鍵，並可以依據任一個欄位進行查詢，讀取所要修改紀錄。修改完，按確認鍵
+<br>modifycustomerItem(customerName,customerPhone, customerID)
 </td>
 <td>4.1根據輸入欄位資料，搜尋客戶記錄，並顯示至畫面</td>
 </tr>

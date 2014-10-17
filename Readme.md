@@ -162,7 +162,7 @@
 </tr>
 <tr>
 <td rowspan="9">主要成功情節</td>
-<td colspan="2">參與者</td>
+<td colspan="2" width="340">參與者</td>
 <td width="170">系統</td>
 </tr>
 <tr>

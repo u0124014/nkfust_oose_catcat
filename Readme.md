@@ -135,7 +135,7 @@
 </table>
 ## 個別使用案例的描述 ##
 <h3>「訂票基本資料作業」之使用案例</h3>
-<table>
+<table border="0">
 <tr>
 <td width="170">使用案例名稱</td>
 <td colspan="3">訂票基本資料作業</td>

@@ -1027,8 +1027,9 @@
 <img src="http://i.imgur.com/cFEHG8M.png" title="最後整個系統的初步類別圖"/>
 
 ## 每個名稱事件之合約 ##
+
+## 使用案例之系統循序圖 ##
 <h3>「訂票基本資料作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/AEGCdae.png" title="訂票基本資料作業之系統循序圖"/>
 <h3>「電影基本資料作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/81mHmOX.png" title="電影基本資料作業之系統循序圖"/>
-## 使用案例之系統循序圖 ##

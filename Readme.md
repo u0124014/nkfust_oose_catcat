@@ -403,10 +403,8 @@
 <tr>
 <td>例外情節</td>
 <td colspan="2">*a. 如果輸入資料不齊全，系統需要顯示警告訊息並提醒更新人員將其資料輸入完成否則無法儲存完成更新
-<br>NoticeError()
-</td>
+<br>NoticeError()</td>
 </tr>
-<tr>
 <tr>
 <td>其他需求</td>
 <td colspan="2">無</td>

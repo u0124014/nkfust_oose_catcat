@@ -166,8 +166,8 @@
 <td>系統</td>
 </tr>
 <tr>
-<td width="170">1.顧客要購買電影票時，進入作業畫面，並啟動新增按鍵</td>
-<td width="150">inputCustomer()</td>
+<td width="150">1.顧客要購買電影票時，進入作業畫面，並啟動新增按鍵</td>
+<td width="100">inputCustomer()</td>
 <td width="170">1.1系統開啟新增訂票基本資料作業畫面
 </td>
 </tr>

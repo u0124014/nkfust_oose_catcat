@@ -163,7 +163,7 @@
 <tr>
 <td rowspan="9">主要成功情節</td>
 <td colspan="2">參與者</td>
-<td>系統</td>
+<td width="170">系統</td>
 </tr>
 <tr>
 <td width="170"><p>1.顧客要購買電影票時，進入作業畫面，並啟動新增按鍵</p></td>

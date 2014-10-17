@@ -191,10 +191,9 @@
 <td>4.1根據輸入欄位資料，搜尋客戶記錄，並顯示至畫面</td>
 </tr>
 <tr>
-<td rowspan="2">5.如果要進行刪除，選取刪除鍵，並可以依據任一個欄位進行查詢，取所要刪除之客戶記錄</td>
-<td>5.1根據輸入欄位資料，儲存客戶記錄，如果按取消鍵，則回到訂票基本資料作業畫面
-<br>deletecustomerItem(customerName, customerPhone, customerID)
-</td>
+<td rowspan="2">5.如果要進行刪除，選取刪除鍵，並可以依據任一個欄位進行查詢，取所要刪除之客戶記錄
+<br>deletecustomerItem(customerName, customerPhone, customerID)</td>
+<td>5.1根據輸入欄位資料，儲存客戶記錄，如果按取消鍵，則回到訂票基本資料作業畫面</td>
 </tr>
 <tr>
 <td>5.2出現確認訊息視窗，按確認進行刪除動作，按取消則不做刪除動作</td>

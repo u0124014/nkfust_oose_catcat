@@ -167,13 +167,14 @@
 </tr>
 <tr>
 <td width="170">1.顧客要購買電影票時，進入作業畫面，並啟動新增按鍵</td>
-<td width="170">Inputcustomer()</td>
+<td width="100">inputCustomer()</td>
 <td width="170">1.1系統開啟新增訂票基本資料作業畫面
 </td>
 </tr>
 <tr>
 <td>2.顧客輸入基本資料，包括客戶姓名、客戶電話、客戶身分證號碼</td>
-<td>Getcustomer(customerName, customerPhone, customerID) heckcustomerItem(customeritem)</td>
+<td>getCustomer(customerName, customerPhone, customerID) 
+<br>checkcustomerItem(customerItem)</td>
 <td>2.1系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重複客戶身分證號碼，顯示「重複客戶名稱」訊息</td>
 </tr>
 <tr>

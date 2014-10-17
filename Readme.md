@@ -138,40 +138,42 @@
 <table>
 <tr>
 <td width="170">使用案例名稱</td>
-<td colspan="2">訂票基本資料作業</td>
+<td colspan="3">訂票基本資料作業</td>
 </tr>
 <tr>
 <td>使用案例描述</td>
-<td colspan="2">顧客查詢電影相關資訊，顧客啟動系統新增、修改資料</td>
+<td colspan="3">顧客查詢電影相關資訊，顧客啟動系統新增、修改資料</td>
 </tr>
 <tr>
 <td>主要參與者</td>
-<td colspan="2">顧客</td>
+<td colspan="3">顧客</td>
 </tr>
 <tr>
 <td>利害關係人與目標</td>
-<td colspan="2">顧客：能夠正確訂票</td>
+<td colspan="3">顧客：能夠正確訂票</td>
 </tr>
 <tr>
 <td>前置條件</td>
-<td colspan="2">無</td>
+<td colspan="3">無</td>
 </tr>
 <tr>
 <td>後置條件</td>
-<td colspan="2">正確建立、修改或刪除基本資料</td>
+<td colspan="3">正確建立、修改或刪除基本資料</td>
 </tr>
 <tr>
 <td rowspan="9">主要成功情節</td>
-<td>參與者</td>
+<td colspan="2">參與者</td>
 <td>系統</td>
 </tr>
 <tr>
 <td width="170">1.顧客要購買電影票時，進入作業畫面，並啟動新增按鍵</td>
+<td width="170">Inputcustomer()</td>
 <td width="170">1.1系統開啟新增訂票基本資料作業畫面
 </td>
 </tr>
 <tr>
 <td>2.顧客輸入基本資料，包括客戶姓名、客戶電話、客戶身分證號碼</td>
+<td>Getcustomer(customerName, customerPhone, customerID) heckcustomerItem(customeritem)</td>
 <td>2.1系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重複客戶身分證號碼，顯示「重複客戶名稱」訊息</td>
 </tr>
 <tr>

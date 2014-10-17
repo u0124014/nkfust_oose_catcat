@@ -381,19 +381,21 @@
 </tr>
 <tr>
 <td>2.線上更新人員更新電影基本資料，包括電影名稱、分級、片長、時刻及座位。
-<br>updateNewMovieItem(movieID,movieLevel,movieLong,movieTime,movieSeat)
+<br>updateNewMovieRec(newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat)
 </td>
 <td>2.1系統檢查更新資料格式，有錯誤時，系統會要求重新輸入<br>
 2.2系統檢查是否有重複電影名稱，如果有則顯示「此部電影上映中」</td>
 </tr>
 <tr>
 <td>3.更新人員需人工檢查是否為同一部電影，如果是則選擇取消更新，若否則繼續更新之。
-<br>checkNewMovieItem(movieID,movieLevel,movieLong,movieTime,movieSeat)
+<br>checkNewMovieItem(newMovieID, newMovieLevel, newMovieLong, newMovieTime, newMovieSeat)
 </td>
 <td>3.1選擇「取消更新」回到更新畫面，如果選擇「繼續更新」則繼續輸入動作</td>
 </tr>
 <tr>
-<td>4.更新完畢後，選取即時更新儲存按鍵 或離4.1選取儲存按鍵，系統將電影資料存開鍵<br>checkNewMovieItem()</td>
+<td>4.更新完畢後，選取即時更新儲存按鍵
+<br>saveNewMovieRec(newMovieID, newMovieLevel,newMovieLong, newMovieTime,newMovieSeat)
+</td>
 <td>4.1選取儲存按鍵，系統將電影資料存入資料庫，將其資料即時更新到客戶端畫面‧如果選取了取消鍵，則回至更新畫面‧如果選擇離開鍵，則會離開電影基本資料作業畫面，其客戶端的資料會呈現更新前的資料</td>
 </tr>
 <tr colspan="2">重複1-4的動作</td>‧

@@ -173,7 +173,7 @@
 <tr>
 <td>2.顧客輸入基本資料，包括客戶姓名、客戶電話、客戶身分證號碼
 <br>getCustomer(customerName, customerPhone, customerID) 
-<br>checkcustomerItem(customerItem)</td>
+</td>
 <td>2.1系統檢查輸入格式，如果有誤要求重新輸入。檢查是否有重複客戶身分證號碼，顯示「重複客戶名稱」訊息</td>
 </tr>
 <tr>

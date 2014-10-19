@@ -1215,6 +1215,7 @@ checkProfit()
 <tr>
 <td>前置條件：</td>
 <td>存在類別movieItem之實例newMovieItem</td>
+</table>
 
 <h4>inputOrder()合約</h4>
 <table>

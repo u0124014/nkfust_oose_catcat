@@ -1216,6 +1216,65 @@ checkProfit()
 <td>前置條件：</td>
 <td>存在類別movieItem之實例newMovieItem</td>
 
+<h4>inputOrder()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>inputOrder()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>inputOrder()</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>憑據處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別Order之實例newOreder</td>
+</tr>
+<tr>
+<td rowspan="2">後置條件：</td>
+<td>-給定實例newOrder之屬性orderID最新流水編號</td>
+</tr>
+<tr>
+<td>-回傳OrderID</td>
+</tr>
+</table>
+
+<h4>getNumber()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>getNumber()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>getNumber(seatsID)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>憑據處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>已開啟Order物件</td>
+</tr>
+<tr>
+<td rowspan="4">後置條件：</td>
+<td>-建立類別Number的實例number</td>
+</tr>
+<tr>
+<td>-實例number與實例newOrder形成關聯</td>
+</tr>
+<tr>
+<td>-實例number根據seatID讀取資料庫憑據資料numberRec存入實例number</td>
+</tr>
+<td>-回傳numberRec紀錄</td>
+</tr>
+</table>
+
 <h4>checkProfit()合約</h4>
 <table>
 <tr>

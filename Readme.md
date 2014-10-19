@@ -1333,3 +1333,7 @@ checkProfit()
 <img src="http://i.imgur.com/hHmaQYe.png" title="處理訂單記錄作業之系統循序圖"/>
 <h3>「電影基本資料作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/81mHmOX.png" title="電影基本資料作業之系統循序圖"/>
+<h3>「憑據處理作業」之系統循序圖</h3>
+<img src="http://i.imgur.com/JUVO1KT.jpg" title="憑據處理作業之系統循序圖"/>
+<h3>「銷售分析作業」之系統循序圖</h3>
+<img src="http://i.imgur.com/zpjeKLY.jpg" title="銷售分析作業之系統循序圖"/>

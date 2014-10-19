@@ -522,8 +522,10 @@ saveOrderItem(orderRec)<br>
 <td width="170">1.1系統開啟銷售分析作業畫面</td>
 </tr>
 <tr>
-<td>2.總裁依各個合作對象(電影院)及超商的銷售紀錄、銷售排行、賣出時間進行查詢</td>
-<td>2.系統依照各個選項的欄位列出使用者所需的資訊</td>
+<td>2.總裁依各個合作對象(電影院)及超商的銷售紀錄、銷售排行、賣出時間進行查詢<br>
+checkProfit()
+</td>
+<td>2.1系統依照各個選項的欄位列出使用者所需的資訊</td>
 </tr>
 <tr>
 <td>3.總裁進行登出帳號</td>
@@ -1213,12 +1215,32 @@ saveOrderItem(orderRec)<br>
 <tr>
 <td>前置條件：</td>
 <td>存在類別movieItem之實例newMovieItem</td>
+
+<h4>checkProfit()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>checkProfit()</td>
 </tr>
 <tr>
-<td>後置條件：</td>
-<td>- 回傳newMovieItem紀錄至實例movieItem</td>
+<td>操作：</td>
+<td>checkProfit()</td>
 </tr>
 <tr>
+<td>交戶參照：</td>
+<td>銷售分析作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>已開啟Order物件</td>
+</tr>
+<tr>
+<td rowspan="2">後置條件：</td>
+<td>-給定實例newOrder之屬性orderID最新銷售業績編號</td>
+</tr>
+<tr>
+<td>-回傳OrderID</td>
+</tr>
 </table>
 ## 使用案例之系統循序圖 ##
 <h3>「訂票基本資料作業」之系統循序圖</h3>

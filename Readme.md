@@ -1131,7 +1131,7 @@ saveOrderItem(orderRec)<br>
 <table>
 <tr>
 <td width="150">合約：</td>
-<td width="250">updateNewMovieItem()</td>
+<td>updateNewMovieItem()</td>
 </tr>
 <tr>
 <td>操作：</td>
@@ -1166,15 +1166,15 @@ saveOrderItem(orderRec)<br>
 </tr>
 </table>
 
-<h4>updateNewMovieItem()合約</h4>
+<h4>checkNewMovieItem()合約</h4>
 <table>
 <tr>
 <td width="150">合約：</td>
-<td>updateNewMovieItem()</td>
+<td>checkNewMovieItem()</td>
 </tr>
 <tr>
 <td>操作：</td>
-<td>updateNewMovieRec(newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat)</td>
+<td>checkNewMovieItem(newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat)</td>
 </tr>
 <tr>
 <td>交戶參照：</td>
@@ -1182,27 +1182,43 @@ saveOrderItem(orderRec)<br>
 </tr>
 <tr>
 <td>前置條件：</td>
-<td>已開啟:Movie物件</td>
+<td>回傳newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat</td>
 </tr>
 <tr>
-<td rowspan="6">後置條件：</td>
-<td>-將newMovieID存入mi.movieID</td>
+<td rowspan="3">後置條件：</td>
+<td>- 根據newMovieID尋找newMovieSpec實例，並形成關聯</td>
 </tr>
 <tr>
-<td>-將newMovieLevel存入mi. movieLevel</td>
+<td>- 根據newMovieID尋找newMovie實例，並形成關聯</td>
 </tr>
 <tr>
-<td>-將newMovieLong存入mi.movieLong</td>
+<td>- 回傳newmovieitem之newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat屬性值</td>
+</tr>
+</table>
+
+<h4>saveNewMovieRec()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>checkNewMovieItem()</td>
 </tr>
 <tr>
-<td>-將newMovieTime存入mi. movieTime</td>
+<td>操作：</td>
+<td>saveNewMovieRec(newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat)</td>
 </tr>
 <tr>
-<td>- 將newMovieSeat存入mi.movieSeat</td>
+<td>交戶參照：</td>
+<td>電影基本資料作業</td>
 </tr>
 <tr>
-<td>-實例newmovieitem根據newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat讀取資料庫電影基本資料newMovieRec存入實例newmovieitem</td>
+<td>前置條件：</td>
+<td>存在類別movieItem之實例newMovieItem</td>
 </tr>
+<tr>
+<td>後置條件：</td>
+<td>- 回傳newMovieItem紀錄至實例movieItem</td>
+</tr>
+<tr>
 </table>
 ## 使用案例之系統循序圖 ##
 <h3>「訂票基本資料作業」之系統循序圖</h3>

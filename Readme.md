@@ -456,11 +456,14 @@ saveOrderItem(orderRec)<br>
 <td>系統</td>
 </tr>
 <tr>
-<td width="170">1. 顧客在家中或到超商售票機前輸入訂票資訊</td>
+<td width="170">1. 顧客在家中或到超商售票機前輸入訂票資訊<br>
+inputOrder()
+</td>
 <td width="170">1.1 系統登入畫面</td>
 </tr>
 <tr>
-<td>2. 顧客依訂票資訊獲得憑據之流水編號</td>
+<td>2. 顧客依訂票資訊獲得憑據之流水編號<br>
+getNumber()</td>
 <td>2.1 螢幕顯示售票資訊及憑據之流水編號並印出</td>
 </tr>
 <tr>
@@ -472,7 +475,8 @@ saveOrderItem(orderRec)<br>
 <td>4.1 系統重複以上動作</td>
 </tr>
 <tr>
-<td>5. 顧客退票時依印出之憑據至櫃台進行退票作業</td>
+<td>5. 顧客退票時依印出之憑據至櫃台進行退票作業<br>
+deleteOrder()</td>
 <td>5.1 系統進入資料庫之畫面並刪除該人的售票資訊</td>
 </tr>
 <tr>

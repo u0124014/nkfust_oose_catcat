@@ -1073,7 +1073,7 @@ saveOrderItem(orderRec)<br>
 <h4>modifycustomerItem()合約</h4>
 <table>
 <tr>
-<td width="170">合約：</td>
+<td width="150">合約：</td>
 <td>modifycustomerItem()</td>
 </tr>
 <tr>
@@ -1100,7 +1100,7 @@ saveOrderItem(orderRec)<br>
 <h4>getNewMovieItem()合約</h4>
 <table>
 <tr>
-<td width="170">合約：</td>
+<td width="150">合約：</td>
 <td>getNewMovieItem()</td>
 </tr>
 <tr>
@@ -1130,7 +1130,7 @@ saveOrderItem(orderRec)<br>
 <h4>updateNewMovieItem()合約</h4>
 <table>
 <tr>
-<td width="170">合約：</td>
+<td width="150">合約：</td>
 <td>updateNewMovieItem()</td>
 </tr>
 <tr>

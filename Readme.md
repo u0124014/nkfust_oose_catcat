@@ -1275,6 +1275,30 @@ checkProfit()
 </tr>
 </table>
 
+<h4>saveNumber()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>saveNumber()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>saveNumber(seatsID)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>憑據處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別Order之實例newOrder</td>
+</tr>
+<tr>
+<td>後置條件：</td>
+<td>-回傳newOrder紀錄至實例number</td>
+</tr>
+</table>
+
 <h4>checkProfit()合約</h4>
 <table>
 <tr>

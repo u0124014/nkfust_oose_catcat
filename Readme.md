@@ -1040,7 +1040,31 @@ saveOrderItem(orderRec)<br>
 <img src="http://i.imgur.com/cFEHG8M.png" title="最後整個系統的初步類別圖"/>
 
 ## 每個名稱事件之合約 ##
-
+<h4>inputCustomer()合約</h4>
+<table>
+<tr>
+<td width="170">合約：</td>
+<td>inputCustomer()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>inputCustomer()</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>訂票基本資料作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別Customer之實例newCustomer</td>
+</tr>
+<tr>
+<td rowspan="3">後置條件：</td>
+<td>-檢查並確認實例newCustomer之customerName、customerPhone、customerID屬性之起始值為空白</td>
+<td>-給定實例</td>
+<td>-回傳整筆訂票基本資料作業</td>
+</tr>
+</table>
 ## 使用案例之系統循序圖 ##
 <h3>「訂票基本資料作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/AEGCdae.png" title="訂票基本資料作業之系統循序圖"/>

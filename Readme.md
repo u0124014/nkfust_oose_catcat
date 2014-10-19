@@ -518,7 +518,9 @@ saveOrderItem(orderRec)<br>
 <td>系統</td>
 </tr>
 <tr>
-<td width="170">1.總裁(管理階層)進入銷售分析作業起始畫面並登入自己的帳號開始進行銷售額的查詢。</td>
+<td width="170">1.總裁(管理階層)進入銷售分析作業起始畫面並登入自己的帳號開始進行銷售額的查詢。<br>
+getNumber(profit)
+</td>
 <td width="170">1.1系統開啟銷售分析作業畫面</td>
 </tr>
 <tr>

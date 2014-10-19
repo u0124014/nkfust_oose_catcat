@@ -1061,8 +1061,39 @@ saveOrderItem(orderRec)<br>
 <tr>
 <td rowspan="3">後置條件：</td>
 <td>-檢查並確認實例newCustomer之customerName、customerPhone、customerID屬性之起始值為空白</td>
+</tr>
+<tr>
 <td>-給定實例</td>
+</tr>
+<tr>
 <td>-回傳整筆訂票基本資料作業</td>
+</tr>
+</table>
+
+<h4>modifycustomerItem()合約</h4>
+<table>
+<tr>
+<td width="170">合約：</td>
+<td>modifycustomerItem()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>modifycustomerItem(customerName,customerPhone,customerID)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>訂票基本資料作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別Customer之實例newCustomer</td>
+</tr>
+<tr>
+<td rowspan="2">後置條件：</td>
+<td>-根據customerName或customerPhone或customerID讀取訂票基本資料作業customerRec,並存入至類別Customer之屬性中</td>
+</tr>
+<tr>
+<td>-回傳customerRec</td>
 </tr>
 </table>
 ## 使用案例之系統循序圖 ##

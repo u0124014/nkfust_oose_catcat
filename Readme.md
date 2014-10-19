@@ -1202,7 +1202,7 @@ checkProfit()
 <table>
 <tr>
 <td width="150">合約：</td>
-<td>checkNewMovieItem()</td>
+<td>saveNewMovieRec()</td>
 </tr>
 <tr>
 <td>操作：</td>

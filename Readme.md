@@ -1131,6 +1131,45 @@ saveOrderItem(orderRec)<br>
 <table>
 <tr>
 <td width="150">合約：</td>
+<td width="250">updateNewMovieItem()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>updateNewMovieRec(newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>電影基本資料作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>已開啟:Movie物件</td>
+</tr>
+<tr>
+<td rowspan="6">後置條件：</td>
+<td>-將newMovieID存入mi.movieID</td>
+</tr>
+<tr>
+<td>-將newMovieLevel存入mi. movieLevel</td>
+</tr>
+<tr>
+<td>-將newMovieLong存入mi.movieLong</td>
+</tr>
+<tr>
+<td>-將newMovieTime存入mi. movieTime</td>
+</tr>
+<tr>
+<td>- 將newMovieSeat存入mi.movieSeat</td>
+</tr>
+<tr>
+<td>-實例newmovieitem根據newMovieID,newMovieLevel,newMovieLong,newMovieTime,newMovieSeat讀取資料庫電影基本資料newMovieRec存入實例newmovieitem</td>
+</tr>
+</table>
+
+<h4>updateNewMovieItem()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
 <td>updateNewMovieItem()</td>
 </tr>
 <tr>

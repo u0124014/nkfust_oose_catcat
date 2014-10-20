@@ -1309,7 +1309,7 @@ checkProfit()
 </tr>
 <tr>
 <td>操作：</td>
-<td>操作：inputTicket(TicketSeat, TicketTName, TicketScreenings, TicketTime,TicketPrice, TicketQ)</td>
+<td>inputTicket(TicketSeat, TicketTName, TicketScreenings, TicketTime,TicketPrice, TicketQ)</td>
 </tr>
 <tr>
 <td>交戶參照：</td>
@@ -1341,6 +1341,34 @@ checkProfit()
 <tr>
 <td>-回傳newSeat紀錄至實例Seat</td>
 </tr>
+</table>
+
+<h4>delete()</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>delete()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>delete(OrderID)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>現有座位及退票處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別delete之實例delete</td>
+</tr>
+<tr>
+<td rowspan="2">後置條件：</td>
+<td>-根據newseat實例尋找出TicketSeat, TicketTName,TicketScreenings,TicketTime, TicketPrice, TicketQ 將其資料從newseat中刪除</td>
+</tr>
+<tr>
+<td>-傳newSeat紀錄至實例Seat</td>
+</tr>
+
 </table>
 
 <h4>getNewMovieItem()合約</h4>

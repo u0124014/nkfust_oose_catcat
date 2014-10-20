@@ -246,7 +246,7 @@
 <tr>
 <td width="170">1.顧客完成訂票手續並輸出資料<br>
 inputOrder()<br>
-getcustomerItem(customerName,customerPhone,customerID)<br>
+getCustomerItem(customerName,customerPhone,customerID)<br>
 addMovieItem(MovieID,MovieTime,MovieSeat,price,quantity)
 </td>
 <td width="170">1.1系統讀取顧客輸入之基本資料(顧客姓名、身分證字號、手機)及戲院名稱、電影時刻、座位、票價、數量<br>
@@ -411,7 +411,7 @@ saveOrderItem(orderRec)<br>
 </td>
 <td>4.1選取儲存按鍵，系統將電影資料存入資料庫，將其資料即時更新到客戶端畫面‧如果選取了取消鍵，則回至更新畫面‧如果選擇離開鍵，則會離開電影基本資料作業畫面，其客戶端的資料會呈現更新前的資料</td>
 </tr>
-<tr colspan="2">重複1-4的動作</td>‧
+<td colspan="2">重複1-4的動作</td>‧
 </tr>
 <tr>
 <td>例外情節</td>
@@ -1102,6 +1102,168 @@ checkProfit()
 </tr>
 <tr>
 <td>-回傳customerRec</td>
+</tr>
+</table>
+
+<h4>inputOrder()合約</h4>
+<table>
+<tr>
+<td width="170">合約：</td>
+<td>inputOrder()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>inputOrder()</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>處理訂單作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別inputOrder之實例newOrder</td>
+</tr>
+<tr>
+<td rowspan="3">後置條件：</td>
+<td>-建立類別inputOrder之實例Od</td>
+</tr>
+<tr>
+<td>-實例Od與實例newOrder形成關聯</td>
+</tr>
+<tr>
+<td>- 給定實例newOrder之屬性newOrderNu 編號</td>
+</tr>
+</table>
+
+<h4>getcustomerItem ()合約</h4>
+<table>
+<tr>
+<td width="170">合約：</td>
+<td>getcustomerItem ()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>getcustomerItem(customerName,customerPhone,customerID)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>處理訂單作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別getcustomerItem 之實例newcustomerItem</td>
+</tr>
+<tr>
+<td rowspan="3">後置條件：</td>
+<td>-建立類別getcustomerItem之實例ci</td>
+</tr>
+<tr>
+<td>-實例ci與實例getcustomerItem形成關聯</td>
+</tr>
+<tr>
+<td>-給定實例getcustomerItem之屬性customerName顧客姓名,customerPhone顧客電話,customerID顧客身分證字號</td>
+</tr>
+</table>
+
+<h4>addMovieItem()合約</h4>
+<table>
+<tr>
+<td width="170">合約：</td>
+<td>addMovieItem()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>操作：addMovieIte(MovieID,MovieTime,MovieSeat,price,quantity)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>處理訂單作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別addMovieItem 之實例newaddMovieItem</td>
+</tr>
+<tr>
+<td rowspan="9">後置條件：</td>
+<td>-建立類別addMovieItem之實例ami</td>
+</tr>
+<tr>
+<td>-實例ami與實例addMovieItem形成關聯</td>
+</tr>
+<tr>
+<td>-給定實例addMovieItem之屬性MovieID電影名稱,MovieTime電影時刻,MovieSeat座位,price票價,quantity數量</td>
+</tr>
+<tr>
+<td>-將MovieID 存入 ami. MovieID</td>
+</tr>
+<tr>
+<td>-將MovieTime 存入 ami. MovieTime</td>
+</tr>
+<tr>
+<td>-將MovieSeat 存入 ami. MovieSeat</td>
+</tr>
+<tr>
+<td>-將price 存入 ami. price</td>
+</tr>
+<tr>
+<td>-將quantity存入 ami. quantity</td>
+</tr>
+<tr>
+<td>- 實例addMovieItem根據MovieID,MovieTime,MovieSeat,price,quantity讀取處理訂單作業存入newmovieitem</td>
+</tr>
+</table>
+
+<h4>checkOrderItem()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>checkOrderItem()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>checkOrderItem(orderItem)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>電影基本資料作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>回傳MovieID,MovieTime, MovieSeat,price,quantity</td>
+</tr>
+<tr>
+<td rowspan="3">後置條件：</td>
+<td>-根據MovieID尋找newmovieitem實例，並形成關聯</td>
+</tr>
+<tr>
+<td>-根據MovieTime尋找newmovieitem實例，並形成關聯</td>
+</tr>
+<tr>
+<td>-回傳newmovieitem實例</td>
+</tr>
+</table>
+
+<h4>saveOrderItem() 合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>saveOrderItem()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>操作：saveOrderItem(orderRec)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>處理訂單作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別saveOrderItem之實例newSaveOrderItem</td>
+</tr>
+<tr>
+<td>後置條件：</td>
+<td>-回傳newSaveOrderItem紀錄至實例OrderItem</td>
 </tr>
 </table>
 

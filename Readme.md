@@ -1173,7 +1173,7 @@ checkProfit()
 </tr>
 <tr>
 <td>操作：</td>
-<td>操作：addMovieIte(MovieID,MovieTime,MovieSeat,price,quantity)</td>
+<td>addMovieIte(MovieID,MovieTime,MovieSeat,price,quantity)</td>
 </tr>
 <tr>
 <td>交戶參照：</td>

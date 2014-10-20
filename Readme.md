@@ -1386,7 +1386,7 @@ checkProfit()
 <td>電影基本資料作業</td>
 </tr>
 <tr>
-<td>前置條件：</td>
+<td>前置條件:</td>
 <td>存在類別movieItem之實例newMovieItem</td>
 </tr>
 <tr>

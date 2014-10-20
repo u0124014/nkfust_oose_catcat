@@ -311,7 +311,9 @@ saveOrderItem(orderRec)<br>
 </tr>
 <tr>
 <td>後置條件</td>
-<td colspan="2">連結「處理訂單紀錄」由刪除的座位找出該筆紀錄予以刪除。</td>
+<td colspan="2">連結「處理訂單紀錄」由刪除的座位找出該筆紀錄予以刪除。<br>
+getSeat()
+</td>
 </tr>
 <tr>
 <td rowspan="5">主要成功情節</td>
@@ -329,7 +331,8 @@ saveOrderItem(orderRec)<br>
 <td>2.1系統將重新整理資料後，顯示現有座位表</td>
 </tr>
 <tr>
-<td></td>
+<td>3.顧客選擇預購買之座位，選取戲院名稱、座位、場次、電影時間、票價、數量，並輸出資料。 顧客列印出「憑據」並將憑據交給超商人員進行結帳拿取「票劵」。<br>
+inputTicket(TicketSeat, TicketTName, TicketScreenings, TicketTime, TicketPrice, TicketQ)</td>
 <td>3.1系統將顧客預購買之座位的狀態改為保留中<br>
 3.2系統將畫面轉換顯示該筆訂單詳細資料待顧客確認。<br>
 3.3顧客確認後系統輸出資料後該筆座位狀態改為已預訂，產生該筆訂單紀錄<br>
@@ -337,7 +340,8 @@ saveOrderItem(orderRec)<br>
 3.5系統將資料更新後傳送至合作對象端</td>
 </tr>
 <tr>
-<td>4.顧客若以付款完成後預退票，至超商櫃檯處理。</td>
+<td>4.顧客若以付款完成後預退票，至超商櫃檯處理。<br>
+delete(OrderID)</td>
 <td>4.1超商人員開啟系統，將此訂單編號輸入後能查詢該筆訂單資料，可從選項中點選「退票」。<br>
 4.2系統收到「退票」信息後，將刪除該筆訂單編號<br>
 4.3系統將該位置重新寫入「現有座位」</td>
@@ -1264,6 +1268,78 @@ checkProfit()
 <tr>
 <td>後置條件：</td>
 <td>-回傳newSaveOrderItem紀錄至實例OrderItem</td>
+</tr>
+</table>
+
+<h4>getSeat()合約</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>getSeat()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>getSeat()</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>現有座位及退票處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別getSeat之實例newSeat</td>
+</tr>
+<tr>
+<td rowspan="3">後置條件：</td>
+<td>-建立類別Seat之實例St</td>
+</tr>
+<tr>
+<td>-實例St與實例newSeat形成關聯</td>
+</tr>
+<tr>
+<td>-給定實例newSeat之屬性newSeatNu 編號</td>
+</tr>
+</table>
+
+<h4>inputTicket()</h4>
+<table>
+<tr>
+<td width="150">合約：</td>
+<td>inputTicket()</td>
+</tr>
+<tr>
+<td>操作：</td>
+<td>操作：inputTicket(TicketSeat, TicketTName, TicketScreenings, TicketTime,TicketPrice, TicketQ)</td>
+</tr>
+<tr>
+<td>交戶參照：</td>
+<td>現有座位及退票處理作業</td>
+</tr>
+<tr>
+<td>前置條件：</td>
+<td>存在類別getSeat之實例newSeat</td>
+</tr>
+<tr>
+<td rowspan="7">後置條件：</td>
+<td>-將TicketSeat存入st.TicketSeat</td>
+</tr>
+<tr>
+<td>-將TicketTName存入st. TicketTName</td>
+</tr>
+<tr>
+<td>-將TicketScreenings存入st. TicketScreenings</td>
+</tr>
+<tr>
+<td>-將TicketTime存入st. TicketTime</td>
+</tr>
+<tr>
+<td>-將TicketPrice存入st. TicketPrice</td>
+</tr>
+<tr>
+<td>-將TicketQ存入st. TicketQ</td>
+</tr>
+<tr>
+<td>-回傳newSeat紀錄至實例Seat</td>
 </tr>
 </table>
 

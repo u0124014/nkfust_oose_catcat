@@ -101,38 +101,8 @@
 </tr>
 </table>
 ## 使用案例圖 ##
-<table>
-<tr>
-<td>顧客、系統管理者</td>
-<td><b>訂票基本資料作業</b></td>
-<td>合作對象</td>
-</tr>
-<tr>
-<td>系統管理人員</td>
-<td><b>處理訂單紀錄</b></td>
-<td>合作對象</td>
-</tr>
-<tr>
-<td>顧客、線上更新人員</td>
-<td><b>現有座位及退票處理作業</b></td>
-<td>合作對象、超商人員</td>
-</tr>
-<tr>
-<td>線上更新人員</td>
-<td><b>電影基本資料</b></td>
-<td>合作對象</td>
-</tr>
-<tr>
-<td> </td>
-<td><b>憑據處理作業</b></td>
-<td>超商人員</td>
-</tr>
-<tr>
-<td> </td>
-<td><b>銷售分析作業</b></td>
-<td>李總</td>
-</tr>
-</table>
+<img src="http://i.imgur.com/8pNxUe3.jpg" title="使用案例圖"/>
+
 ## 個別使用案例的描述 ##
 <h3>「訂票基本資料作業」之使用案例</h3>
 <table>

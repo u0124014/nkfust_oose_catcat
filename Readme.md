@@ -533,7 +533,7 @@ checkProfit()
 <img src="http://i.imgur.com/EVqVAHe.jpg" title="處理訂單紀錄作業之活動圖"/>
 
 <h2>「現有座位及退票處理作業」之活動圖</h2>
-<img src="http://i.imgur.com/EVqVAHe.jpg" title="現有座位及退票處理作業之活動圖"/>
+<img src="http://i.imgur.com/kWJYMFO.jpg" title="現有座位及退票處理作業之活動圖"/>
 
 <h2>「電影基本資料作業」之活動圖</h2>
 <img src="http://i.imgur.com/QgmtWva.jpg" title="電影基本資料作業之活動圖"/>

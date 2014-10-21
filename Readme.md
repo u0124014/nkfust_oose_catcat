@@ -556,6 +556,11 @@ checkProfit()
 </table>
 
 ## 個別使用案例的活動圖 ##
+<h2>「訂票基本資料作業」之活動圖</h2>
+<img src="http://i.imgur.com/VLJA2YO.png" title="訂票基本資料作業之活動圖"/>
+<h2>「電影基本資料作業」之活動圖</h2>
+<img src="http://i.imgur.com/QgmtWva.jpg" title="電影基本資料作業之活動圖"/>
+
 ## 每個使用案例的名詞與概念類別列舉表 ##
 <h3>「訂票基本資料作業」之概念類別列舉表</h3>
 <table>

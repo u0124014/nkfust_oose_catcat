@@ -538,6 +538,12 @@ checkProfit()
 <h2>「電影基本資料作業」之活動圖</h2>
 <img src="http://i.imgur.com/QgmtWva.jpg" title="電影基本資料作業之活動圖"/>
 
+<h2>「憑據處理作業」之活動圖</h2>
+<img src="http://i.imgur.com/JXFjJzV.jpg" title="憑據處理作業業之活動圖"/>
+
+<h2>「銷售分析作業」之活動圖</h2>
+<img src="http://i.imgur.com/jTKbZ4L.jpg" title="銷售分析作業之活動圖"/>
+
 
 ## 每個使用案例的名詞與概念類別列舉表 ##
 <h3>「訂票基本資料作業」之概念類別列舉表</h3>

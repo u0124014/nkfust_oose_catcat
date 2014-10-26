@@ -1589,9 +1589,9 @@ checkProfit()
 </table>
 ## 使用案例之系統循序圖 ##
 <h3>「訂票基本資料作業」之系統循序圖</h3>
-<img src="http://i.imgur.com/AEGCdae.png" title="訂票基本資料作業之系統循序圖"/>
+<img src="http://i.imgur.com/UBj3Pib.png" title="訂票基本資料作業之系統循序圖"/>
 <h3>「處理訂單記錄作業」之系統循序圖</h3>
-<img src="http://i.imgur.com/hHmaQYe.png" title="處理訂單記錄作業之系統循序圖"/>
+<img src="http://i.imgur.com/mAzXzBr.png" title="處理訂單記錄作業之系統循序圖"/>
 <h3>「電影基本資料作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/81mHmOX.png" title="電影基本資料作業之系統循序圖"/>
 <h3>「憑據處理作業」之系統循序圖</h3>

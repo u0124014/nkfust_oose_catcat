@@ -1031,7 +1031,7 @@ checkProfit()
 <img src="http://i.imgur.com/y7MRTQ4.jpg" title="電影基本資料作業之初部類別圖"/>
 
 <h3>憑據處理作業之初步類別圖</h3>
-<img src="http://i.imgur.com/PvziGK4.png" title="憑據處理作業之初部類別圖"/>
+<img src="http://i.imgur.com/JqXcr8R.png" title="憑據處理作業之初部類別圖"/>
 
 <h3>銷售分析作業之初步類別圖</h3>
 <img src="http://i.imgur.com/KZPH5bT.png" title="銷售分析作業之初部類別圖"/>

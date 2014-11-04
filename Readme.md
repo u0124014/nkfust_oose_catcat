@@ -1038,7 +1038,7 @@ checkProfit()
 
 
 ## 最後整個系統的初步類別圖 ##
-<img src="http://i.imgur.com/CEsIMwS.jpg" title="最後整個系統的初步類別圖"/>
+<img src="http://i.imgur.com/nhbP2kR.png" title="最後整個系統的初步類別圖"/>
 
 ## 每個名稱事件之合約 ##
 <h4>inputCustomer()合約</h4>

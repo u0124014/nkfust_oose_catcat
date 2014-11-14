@@ -101,7 +101,7 @@
 </tr>
 </table>
 ## 使用案例圖 ##
-<img src="http://i.imgur.com/8pNxUe3.jpg" title="使用案例圖"/>
+<img src="http://i.imgur.com/ihg2Xyf.jpg" title="使用案例圖"/>
 
 ## 個別使用案例的描述 ##
 <h3>「訂票基本資料作業」之使用案例</h3>
@@ -1038,7 +1038,7 @@ checkProfit()
 
 
 ## 最後整個系統的初步類別圖 ##
-<img src="http://i.imgur.com/nhbP2kR.png" title="最後整個系統的初步類別圖"/>
+<img src="http://i.imgur.com/9UiF5yv.png" title="最後整個系統的初步類別圖"/>
 
 ## 每個名稱事件之合約 ##
 <h4>inputCustomer()合約</h4>

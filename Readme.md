@@ -334,16 +334,16 @@ delete(OrderID)</td>
 </tr>
 <tr>
 <td>使用案例描述</td>
-<td colspan="2">合作對象將最新的電影時刻及劃位狀況回傳給線上更新人員，線上更新人員在將其資料更新至系統上。</td>
+<td colspan="2">合作對象輸入帳號密碼進入合作對象專屬頁面，輸入最新的電影資訊，按下儲存後回傳紀錄給系統管理者‧。</td>
 </tr>
 <tr>
 <td>主要參與者</td>
-<td colspan="2">線上更新人員/合作對象</td>
+<td colspan="2">合作對象／系統管理者‧</td>
 </tr>
 <tr>
 <td>利害關係人與目標</td>
-<td colspan="2">線上更新人員:接收合作對象提供的電影資訊並將其更新至系統上<br>
-合作對象:立即的更新及修改電影資訊</td>
+<td colspan="2">合作對象:立即的更新及修改電影資訊<br>
+系統管理者：接收合作對象所輸入的電影資訊‧</td>
 </tr>
 <tr>
 <td>前置條件</td>
@@ -359,37 +359,34 @@ delete(OrderID)</td>
 <td>系統</td>
 </tr>
 <tr>
-<td width="170">1.當合作對象上映新的電影時，線上更新人員啟動後台電影基本作業畫面，選取更新按鍵，並可以依據任一個欄位進行查詢，讀取所要更新之電影院進行資料更新。
+<td width="170">1. 當合作對象上映新的電影時，合作對象需登入電影基本資料畫面，選取更新按鍵，並可以依據任一個欄位進行查詢，讀取所要更新之電影院進行資料更新‧ getNewMovieRec()
 <br>getNewMovieRec()
 </td>
-<td width="170">1.1系統開啟更新電影基本資料畫面。<br>
-1.2顧客輸入完成後，系統讀取資料找尋個人紀錄。
-</td>
+<td width="170">1.1系統開啟更新電影基本資料畫面</td>
 </tr>
 <tr>
-<td>2.線上更新人員更新電影基本資料，包括電影名稱、分級、片長、時刻及座位。
+<td>2. 合作對象更新電影基本資料，包括電影名稱、分級、片長、時刻及座位‧
 <br>updateNewMovieRec(newMovieID, newMovieLevel, newMovieLong, newMovieTime, newMovieSeat)
 </td>
-<td>2.1系統檢查更新資料格式，有錯誤時，系統會要求重新輸入<br>
-2.2系統檢查是否有重複電影名稱，如果有則顯示「此部電影上映中」</td>
+<td>2.1系統檢查更新資料格式，有錯誤時，系統會要求重新輸入<br> 2.2系統檢查是否有重複電影名稱，如果有則顯示「此部電影上映中」</td>
 </tr>
 <tr>
-<td>3.更新人員需人工檢查是否為同一部電影，如果是則選擇取消更新，若否則繼續更新之。
-<br>checkNewMovieItem(newMovieID, newMovieLevel, newMovieLong, newMovieTime, newMovieSeat)
+<td>3. 系統自動檢查是否為同一部電影，如果是則合作對象選擇取消更新，若否則繼續更新之
+<br>checkNewMovieItem(newMovieID, newMovieLevel, newMovieLong, newMovieTime, newMovieSeat)。
 </td>
 <td>3.1選擇「取消更新」回到更新畫面，如果選擇「繼續更新」則繼續輸入動作</td>
 </tr>
 <tr>
-<td>4.更新完畢後，選取即時更新儲存按鍵
+<td>4. 更新完畢後，選取即時更新儲存按鍵 或離開鍵‧
 <br>saveNewMovieRec(newMovieID, newMovieLevel, newMovieLong, newMovieTime, newMovieSeat)
 </td>
-<td>4.1選取儲存按鍵，系統將電影資料存入資料庫，將其資料即時更新到客戶端畫面‧如果選取了取消鍵，則回至更新畫面‧如果選擇離開鍵，則會離開電影基本資料作業畫面，其客戶端的資料會呈現更新前的資料</td>
+<td>4.1選取儲存按鍵，系統將電影資料存入資料庫，將其資料即時更新到客戶端畫面及將記錄回傳給系統管理者‧如果選取了取消鍵，則回至更新畫面‧如果選擇離開鍵，則會離開電影基本資料作業畫面，其客戶端的資料會呈現更新前的資料‧</td>
 </tr>
 <td colspan="2">重複1-4的動作</td>‧
 </tr>
 <tr>
 <td>例外情節</td>
-<td colspan="2">*a. 如果輸入資料不齊全，系統需要顯示警告訊息並提醒更新人員將其資料輸入完成否則無法儲存完成更新
+<td colspan="2">*a. 如果輸入資料不齊全，系統需要顯示警告訊息並提醒合作對象將其資料輸入完成否則無法儲存完成更新‧
 <br>NoticeError()</td>
 </tr>
 <tr>
@@ -873,11 +870,6 @@ checkProfit()
 <td>是</td>
 </tr>
 <tr>
-<td>線上更新人員</td>
-<td>本系統需要有更新人員將合作對象傳送之資料更新至客戶端的系統</td>
-<td>是</td>
-</tr>
-<tr>
 <td>戲院名稱</td>
 <td>合作對象的基本資料，重要。</td>
 <td>是</td>
@@ -885,11 +877,6 @@ checkProfit()
 <tr>
 <td>戲院地址</td>
 <td>合作對象屬性。</td>
-<td>否</td>
-</tr>
-<tr>
-<td>現有座位表</td>
-<td>系統後端管控座位情況的憑據</td>
 <td>否</td>
 </tr>
 <tr>
@@ -904,32 +891,27 @@ checkProfit()
 </tr>
 <tr>
 <td>更新時間</td>
-<td>線上更新人員屬性</td>
+<td>更新紀錄屬性</td>
 <td>否</td>
 </tr>
 <tr>
 <td>更新座位</td>
-<td>線上更新人員屬性</td>
+<td>更新紀錄屬性</td>
 <td>否</td>
 </tr>
 <tr>
 <td>更新場次</td>
-<td>線上更新人員屬性</td>
+<td>更新紀錄屬性</td>
 <td>否</td>
 </tr>
 <tr>
 <td>更新電影</td>
-<td>線上更新人員屬性</td>
+<td>更新紀錄屬性</td>
 <td>否</td>
 </tr>
 <tr>
-<td>更新人員姓名</td>
-<td>線上更新人員屬性</td>
-<td>否</td>
-</tr>
-<tr>
-<td>員工編號</td>
-<td>線上更新人員屬性</td>
+<td>上傳更新紀錄之戲院</td>
+<td>更新紀錄屬性</td>
 <td>否</td>
 </tr>
 </table>
@@ -1028,7 +1010,7 @@ checkProfit()
 <img src="http://i.imgur.com/57N5zm9.jpg" title="現有座位及退票處理作業之初部類別圖"/>
 
 <h3>電影基本資料作業之初步類別圖</h3>
-<img src="http://i.imgur.com/y7MRTQ4.jpg" title="電影基本資料作業之初部類別圖"/>
+<img src="http://i.imgur.com/5N1uhJs.jpg" title="電影基本資料作業之初部類別圖"/>
 
 <h3>憑據處理作業之初步類別圖</h3>
 <img src="http://i.imgur.com/JqXcr8R.png" title="憑據處理作業之初部類別圖"/>

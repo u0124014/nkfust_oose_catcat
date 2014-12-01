@@ -1001,7 +1001,7 @@ checkProfit()
 
 ## 每個使用案例的初步類別圖 ##
 <h3>訂票基本資料作業之初步類別圖</h3>
-<img src="http://i.imgur.com/AWpP2Z8.png" title="訂票基本資料作業之初部類別圖"/>
+<img src="http://i.imgur.com/NSSxRMd.png" title="訂票基本資料作業之初部類別圖"/>
 
 <h3>處理訂單紀錄之初步類別圖</h3>
 <img src="http://i.imgur.com/loBG1AV.jpg" title="處理訂單紀錄之初部類別圖"/>

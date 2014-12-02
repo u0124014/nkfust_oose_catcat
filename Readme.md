@@ -1004,10 +1004,10 @@ checkProfit()
 <img src="http://i.imgur.com/NSSxRMd.png" title="訂票基本資料作業之初部類別圖"/>
 
 <h3>處理訂單紀錄之初步類別圖</h3>
-<img src="http://i.imgur.com/loBG1AV.jpg" title="處理訂單紀錄之初部類別圖"/>
+<img src="http://i.imgur.com/KpjqdPx.jpg" title="處理訂單紀錄之初部類別圖"/>
 
 <h3>現有座位及退票處理作業之初步類別圖</h3>
-<img src="http://i.imgur.com/57N5zm9.jpg" title="現有座位及退票處理作業之初部類別圖"/>
+<img src="http://i.imgur.com/IXc0J4E.jpg" title="現有座位及退票處理作業之初部類別圖"/>
 
 <h3>電影基本資料作業之初步類別圖</h3>
 <img src="http://i.imgur.com/5N1uhJs.jpg" title="電影基本資料作業之初部類別圖"/>
@@ -1021,6 +1021,9 @@ checkProfit()
 
 ## 最後整個系統的初步類別圖 ##
 <img src="http://i.imgur.com/Pe2a3Oo.png" title="最後整個系統的初步類別圖"/>
+
+## 最後整個系統的強韌圖 ##
+<img src="http://i.imgur.com/EVdWYmo.png" title="最後整個系統的強韌圖"/>
 
 ## 每個名稱事件之合約 ##
 <h4>inputCustomer()合約</h4>

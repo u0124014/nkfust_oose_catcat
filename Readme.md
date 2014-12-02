@@ -1023,7 +1023,7 @@ checkProfit()
 <img src="http://i.imgur.com/nsuCnuU.png" title="最後整個系統的初步類別圖"/>
 
 ## 最後整個系統的強韌圖 ##
-<img src="http://i.imgur.com/EVdWYmo.png" title="最後整個系統的強韌圖"/>
+<img src="http://i.imgur.com/ZGWCPvv.png" title="最後整個系統的強韌圖"/>
 
 ## 每個名稱事件之合約 ##
 <h4>inputCustomer()合約</h4>

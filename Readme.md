@@ -1020,7 +1020,7 @@ checkProfit()
 
 
 ## 最後整個系統的初步類別圖 ##
-<img src="http://i.imgur.com/Pe2a3Oo.png" title="最後整個系統的初步類別圖"/>
+<img src="http://i.imgur.com/nsuCnuU.png" title="最後整個系統的初步類別圖"/>
 
 ## 最後整個系統的強韌圖 ##
 <img src="http://i.imgur.com/EVdWYmo.png" title="最後整個系統的強韌圖"/>

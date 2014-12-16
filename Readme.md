@@ -1587,3 +1587,6 @@ checkProfit()
 <img src="http://i.imgur.com/pRSbaH9.png" title="憑據處理作業之系統循序圖"/>
 <h3>「銷售分析作業」之系統循序圖</h3>
 <img src="http://i.imgur.com/GGtsAfd.png" title="銷售分析作業之系統循序圖"/>
+
+## E-R Model ##
+<img src="http://i.imgur.com/SwuXCpN.png" title="E-R Model"/>

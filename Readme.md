@@ -1589,4 +1589,4 @@ checkProfit()
 <img src="http://i.imgur.com/GGtsAfd.png" title="銷售分析作業之系統循序圖"/>
 
 ## E-R Model ##
-<img src="http://i.imgur.com/SwuXCpN.png" title="E-R Model"/>
+<img src="http://i.imgur.com/KJCAX9u.png" title="E-R Model"/>
